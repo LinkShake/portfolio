@@ -1,0 +1,9 @@
+* {
+  --words-color: black;
+  --initial-page-color: white;
+  --titles-font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --main-theme: #8a2be2;
+  --dark-shade: #4b0082;
+}

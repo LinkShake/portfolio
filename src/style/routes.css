@@ -1,0 +1,40 @@
+.route-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--route {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 40px;
+  border: 5px solid var(--dark-shade);
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: var(--dark-shade);
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+@media (max-width: 325px) {
+  .btn--route {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 200px) {
+  .btn--route {
+    transition: 0.2s;
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    border: 2px solid var(--dark-shade);
+  }
+}

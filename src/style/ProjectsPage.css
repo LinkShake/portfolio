@@ -1,0 +1,48 @@
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 90vh;
+}
+
+.project-card {
+  margin: 2rem;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 20rem;
+  min-width: 20rem;
+  height: fit-content;
+}
+
+.project-card h2 {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.project-card p {
+  padding: 2rem;
+}
+
+.project-card a {
+  padding: 1rem;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+@media (max-width: 380px) {
+  .project-card {
+    margin: 3vw;
+  }
+}
+
+@media (max-width: 325px) {
+  .project-card {
+    min-width: none;
+    width: auto;
+  }
+}
