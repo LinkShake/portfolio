@@ -1,3 +1,9 @@
+import LazyLoad from "react-lazyload";
+
 export default function PageNotFound() {
-  return <h1>Page not found</h1>;
+  return (
+    <LazyLoad>
+      <h1>Page not found</h1>
+    </LazyLoad>
+  );
 }

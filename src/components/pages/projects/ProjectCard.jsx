@@ -8,12 +8,12 @@ export default function ProjectCard({ project }) {
       <div className="project-links">
         {project.githubRepo && (
           <a href={project.githubRepo} target="_blank" rel="noreferrer">
-            Repo
+            Repo &rarr;
           </a>
         )}
         {project.liveSite && (
           <a href={project.liveSite} target="_blank" rel="noreferrer">
-            Live site
+            Live site &rarr;
           </a>
         )}
       </div>

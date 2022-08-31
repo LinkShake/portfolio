@@ -25,6 +25,7 @@
 
 .project-card a {
   padding: 1rem;
+  font-weight: bolder;
 }
 
 .project-links {
@@ -40,9 +41,33 @@
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 330px) {
   .project-card {
-    min-width: none;
+    min-width: auto;
+    width: auto;
+  }
+  .project-card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 260px) {
+  .project-card h2 {
+    font-size: 8vw;
+  }
+  .project-card p,
+  .project-card a {
+    font-size: 6vw;
+    padding: 3vw;
+  }
+}
+
+@media (max-width: 100px) {
+  .projects-box {
+    width: auto;
+    height: auto;
+  }
+  .projects-card {
     width: auto;
   }
 }
