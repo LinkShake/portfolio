@@ -3,7 +3,6 @@ import SkillsContainer from "../components/pages/skills/SkillsContainer";
 import { Fragment, useLayoutEffect } from "react";
 import { SKILLS_LIST } from "../shared/config";
 import Footer from "../components/global/Footer";
-import LazyLoad from "react-lazyload";
 import "../style/TopBanner.css";
 
 export default function SkillsPage() {
@@ -11,14 +10,12 @@ export default function SkillsPage() {
     window.scrollTo(0, 0);
   });
   return (
-    <LazyLoad offset={0}>
-      <Fragment>
-        <TopBanner />
-        <div className="skills-box">
-          <SkillsContainer skillsList={SKILLS_LIST} />
-        </div>
-        <Footer />
-      </Fragment>
-    </LazyLoad>
+    <Fragment>
+      <TopBanner />
+      <div className="skills-box">
+        <SkillsContainer skillsList={SKILLS_LIST} />
+      </div>
+      <Footer />
+    </Fragment>
   );
 }

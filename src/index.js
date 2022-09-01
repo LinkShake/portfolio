@@ -8,53 +8,17 @@ import LandingPage from "./routes/LandingPage";
 import SkillsPage from "./routes/SkillsPage";
 import ProjectsPage from "./routes/ProjectsPage";
 import PageNotFound from "./routes/PageNotFound";
-import LazyLoad from "react-lazyload";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <LazyLoad offset={0}>
-              <LandingPage />
-            </LazyLoad>
-          }
-        />
-        <Route
-          path="/home"
-          element={
-            <LazyLoad offset={0}>
-              <App />
-            </LazyLoad>
-          }
-        />
-        <Route
-          path="/skills-page"
-          element={
-            <LazyLoad offset={0}>
-              <SkillsPage />
-            </LazyLoad>
-          }
-        />
-        <Route
-          path="/projects-page"
-          element={
-            <LazyLoad offset={0}>
-              <ProjectsPage />
-            </LazyLoad>
-          }
-        />
-        <Route
-          path="*"
-          element={
-            <LazyLoad offset={0}>
-              <PageNotFound />
-            </LazyLoad>
-          }
-        />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<App />} />
+        <Route path="/skills-page" element={<SkillsPage />} />
+        <Route path="/projects-page" element={<ProjectsPage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
