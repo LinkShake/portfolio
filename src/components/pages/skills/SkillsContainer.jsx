@@ -46,7 +46,7 @@ export default function SkillsContainer({ skillsList }) {
               />
             );
           default:
-            return;
+            return null;
         }
       })}
     </div>
