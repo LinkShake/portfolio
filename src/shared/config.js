@@ -1,5 +1,6 @@
-export const PROGRAMMING_LANGUAGES = ["HTML/CSS", "JavaScript"];
-export const TECHNOLOGIES = ["React"];
+export const PROGRAMMING_LANGUAGES = ["html5", "css3", "javascript"];
+export const TECHNOLOGIES = ["react"];
+export const SKILLS_LIST = PROGRAMMING_LANGUAGES.concat(TECHNOLOGIES);
 export const LINKS = [
   { profile: "Github", url: "https://github.com/LinkShake" },
 ];

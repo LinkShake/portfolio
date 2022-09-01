@@ -1,9 +1,10 @@
 import TopBanner from "../components/pages/common/TopBanner";
 import SkillsContainer from "../components/pages/skills/SkillsContainer";
 import { Fragment, useLayoutEffect } from "react";
-import { PROGRAMMING_LANGUAGES, TECHNOLOGIES } from "../shared/config";
+import { SKILLS_LIST } from "../shared/config";
 import Footer from "../components/global/Footer";
 import LazyLoad from "react-lazyload";
+import "../style/TopBanner.css";
 
 export default function SkillsPage() {
   useLayoutEffect(() => {
@@ -14,14 +15,7 @@ export default function SkillsPage() {
       <Fragment>
         <TopBanner />
         <div className="skills-box">
-          <SkillsContainer
-            skillsList={PROGRAMMING_LANGUAGES}
-            skillsTitle="Languages"
-          />
-          <SkillsContainer
-            skillsList={TECHNOLOGIES}
-            skillsTitle="Technologies"
-          />
+          <SkillsContainer skillsList={SKILLS_LIST} />
         </div>
         <Footer />
       </Fragment>

@@ -6,4 +6,11 @@
     "Lucida Sans", Arial, sans-serif;
   --main-theme: #8a2be2;
   --dark-shade: #4b0082;
+  --main-linear-gradient: linear-gradient(
+    to bottom right,
+    black 0.1%,
+    var(--dark-shade) 20%,
+    var(--main-theme) 40%,
+    white
+  );
 }
