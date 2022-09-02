@@ -12,10 +12,10 @@ export default function ProjectsReference() {
         <div className="text-container">
           <p>
             If you're still here, well, I hope because you're interested in what
-            I have to show! This is last section is all about my current and
-            future projects! I'll update it as soon as I'll have something new
-            to show to the world! But if you're interested in seeing some
-            "behind the scenes" make sure to go to my{" "}
+            I have to show! This last section is all about my current and future
+            projects! I'll update it as soon as I'll have something new to show
+            to the world! But if you're interested in seeing some "behind the
+            scenes" make sure to go to my{" "}
             <a
               id="github-link"
               href="https://github.com/LinkShake"
