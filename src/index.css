@@ -8,6 +8,18 @@ body {
   overflow-x: hidden;
 }
 
+@media (min-width: 3000px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 5000px) {
+  html {
+    font-size: 200%;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

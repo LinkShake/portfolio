@@ -20,7 +20,6 @@
 .text-container {
   padding: 3rem;
   margin-top: 2rem;
-  box-shadow: 2px 2px 2px 2px black;
 }
 
 @media (max-width: 359px) {
