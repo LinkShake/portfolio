@@ -1,5 +1,5 @@
 import TopBanner from "../components/pages/common/TopBanner";
-import SkillsContainer from "../components/pages/skills/SkillsContainer";
+import SkillsContainer from "../components/pages/skills/SkillsCard";
 import { Fragment, useLayoutEffect } from "react";
 import { SKILLS_LIST } from "../shared/config";
 import Footer from "../components/global/Footer";
@@ -13,7 +13,9 @@ export default function SkillsPage() {
     <Fragment>
       <TopBanner />
       <div className="skills-box">
-        <SkillsContainer skillsList={SKILLS_LIST} />
+        {SKILLS_LIST.map(skill => {
+          return <SkillsContainer skill={skill} key={skill.technologyName} />;
+        })}
       </div>
       <Footer />
     </Fragment>

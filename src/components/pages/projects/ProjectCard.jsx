@@ -1,4 +1,4 @@
-import "../../../style/ProjectsPage.css";
+import "../../../style/ProjectsSkillsPage.css";
 
 export default function ProjectCard({ project }) {
   return (

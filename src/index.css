@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 @media (min-width: 3000px) {
@@ -33,7 +33,6 @@ code {
 
 @media (orientation: landscape) {
   body {
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow: auto;
   }
 }
