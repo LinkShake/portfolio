@@ -12,11 +12,15 @@
   align-items: center;
   width: 20rem;
   height: 5rem;
-  border-radius: 40px;
-  border: 5px solid var(--dark-shade);
-  background-color: transparent;
+  /* border: 2px solid var(--main-theme); */
+  background-color: var(--main-theme);
   font-size: 1.5rem;
-  color: var(--dark-shade);
+  border: transparent;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem gray;
+  /* color: var(--main-theme);
+   */
+  color: white;
   font-weight: bold;
   text-decoration: none;
   margin-top: 4rem;

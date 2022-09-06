@@ -7,7 +7,7 @@
 .gif {
   width: 95%;
   height: 100%;
-  box-shadow: 0 0 0.5rem 0.5rem black, 0 0 1rem 1rem gray;
+  box-shadow: 0 1px 10px 1px gray;
 }
 
 .gif-container {

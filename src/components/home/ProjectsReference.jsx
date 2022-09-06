@@ -29,7 +29,7 @@ export default function ProjectsReference() {
         </div>
       </div>
       <div className="route-container">
-        <Link to="/projects-page">
+        <Link to="/projects-page" style={{ textDecoration: "none" }}>
           <button className="btn--route">More &rarr;</button>
         </Link>
       </div>

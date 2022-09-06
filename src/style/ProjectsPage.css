@@ -5,13 +5,28 @@
   height: 90vh;
 }
 
+@media (max-height: 730px) {
+  .projects-box {
+    height: fit-content;
+  }
+}
+
 .project-card {
+  padding: 0.5vw;
   margin: 2rem;
   flex-wrap: wrap;
-  border: 1px solid black;
+  border: transparent;
+  box-shadow: 0 1px 10px 1px gray;
+  border-radius: 1vw;
   width: 20rem;
   min-width: 20rem;
   height: fit-content;
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  transition: 0.2s;
+  scale: 1.05;
 }
 
 .project-card h2 {

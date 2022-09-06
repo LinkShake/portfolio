@@ -30,7 +30,7 @@ export default function SkillsReference() {
         </div>
       </div>
       <div className="route-container">
-        <Link to="/skills-page">
+        <Link to="/skills-page" style={{ textDecoration: "none" }}>
           <button className="btn--route">More &rarr;</button>
         </Link>
       </div>

@@ -14,41 +14,15 @@
   justify-content: center;
   text-align: center;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   font-size: 5rem;
-  font-family: Indie Flower;
+  font-family: var(--title-font-family);
+  box-shadow: 0 0 1rem gray;
   font-weight: bolder;
   text-transform: uppercase;
-  border-radius: 2.5rem;
-  background-image: var(--main-linear-gradient);
-  animation: change-color 10s infinite;
-}
-
-@keyframes change-color {
-  0% {
-    color: white;
-  }
-  20% {
-    color: blueviolet;
-  }
-  25% {
-    color: gray;
-  }
-  35% {
-    color: yellowgreen;
-  }
-  50% {
-    color: orange;
-  }
-  65% {
-    color: green;
-  }
-  75% {
-    color: aqua;
-  }
-  100% {
-    color: black;
-  }
+  color: white;
+  border-radius: 1rem;
+  background-color: var(--main-theme);
 }
 
 .reference p {

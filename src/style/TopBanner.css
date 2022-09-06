@@ -8,5 +8,5 @@
   justify-content: center;
   text-decoration: underline;
   font-size: 3rem;
-  background-image: var(--main-linear-gradient);
+  background-color: var(--main-theme);
 }
