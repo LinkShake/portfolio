@@ -22,6 +22,11 @@
   margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+  .text-container {
+    padding: 1vw !important;
+  }
+}
 @media (max-width: 359px) {
   .text-container {
     padding: 1rem;

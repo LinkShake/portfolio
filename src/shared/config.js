@@ -2,13 +2,13 @@ export const PROGRAMMING_LANGUAGES = [
   {
     technologyName: "Html5",
     technologyDescription:
-      "A markup language used everywhere in web development world to generate the UI components for your webpage",
+      "A markup language used everywhere in web development world to generate the UI components for your webpage. You have to think that, at the origins of W3, sites were almost plain HTML with no interaction or styling: what a quiet age it was!",
     resources: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
     technologyName: "Css3",
     technologyDescription:
-      "CSS is the go to languages for styling components and UI elements. Without CSS, HTML wouldn't be so useful. CSS is perfect for small/medium size applications but, when the UI goes bigger, also styling should: here's why there are some options like Tailwind CSS, Bootsrap, SCSS and so on and so forth",
+      "CSS is the go to language for styling components and UI elements. Without CSS, HTML wouldn't be so useful. CSS is perfect for small/medium size applications but, when the UI goes bigger, also styling should: here's why there are some options like Tailwind CSS, Bootsrap, SCSS and so on and so forth",
     resources: "https://web.dev/learn/css/",
   },
   {
@@ -22,7 +22,7 @@ export const TECHNOLOGIES = [
   {
     technologyName: "React.js",
     technologyDescription:
-      "React.js is a frontend JavaScript library to build User Interfaces. This the official page says: but, in my opinion, it's a lot more than that. React, backed with nothing less than Meta(Facebook), is the perfect library for big projects because it lets developers build their own custom component mixing js, HTML and even CSS togheter thanks to JSX(a special js format). It also allows you to use Hooks: special functions to manage state and do a lot more with both built-in and custom hooks you can build to suit your needs. React.js also has the biggest frontend library's ecosystem with tons of frameworks (Next.js, Gatsby...) cross-platform mobile development with React Native, a lot of tools (such as React Router, React Query, Redux...) and also some dedicated GraphQL clients (such as Relay).",
+      "React.js is a frontend JavaScript library for building User Interfaces. This the official page says: but, in my opinion, it's a lot more than that. React, backed with nothing less than Meta(Facebook), is the perfect library for big projects because it lets developers build their own custom component mixing js, HTML and even CSS togheter thanks to JSX(a special js format). It also allows you to use Hooks: special functions to manage state and do a lot more with both built-in and custom hooks you can build to suit your needs. React.js also has the biggest frontend library's ecosystem with tons of frameworks (Next.js, Gatsby...), support for cross-platform mobile development with React Native, a lot of tools (such as React Router, React Query, Redux...) and also some dedicated GraphQL clients (such as Relay).",
     resources: "https://reactjs.org/",
   },
 ];
