@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   width: 100vw;
   height: 90vh;
+  gap: 0;
 }
 
 .skills-box {

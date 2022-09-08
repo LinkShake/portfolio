@@ -3,7 +3,7 @@ import GitHubIcon from "../../icons/github-brands.svg";
 import "../../style/icons.css";
 import "../../style/links.css";
 
-export default function Contacts() {
+export const Contacts = () => {
   return (
     <div className="reference">
       <h1>Me on the web</h1>
@@ -29,4 +29,4 @@ export default function Contacts() {
       </div>
     </div>
   );
-}
+};

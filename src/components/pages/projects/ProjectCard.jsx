@@ -1,6 +1,6 @@
 import "../../../style/ProjectsSkillsPage.css";
 
-export default function ProjectCard({ project }) {
+export const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <h2>{project.projectName}</h2>
@@ -19,4 +19,4 @@ export default function ProjectCard({ project }) {
       </div>
     </div>
   );
-}
+};

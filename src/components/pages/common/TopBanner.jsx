@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../../style/SkillsPage.css";
 import "../../../style/homeRoute.css";
 
-export default function TopBanner() {
+export const TopBanner = () => {
   return (
     <div className="top-banner">
       <Link to="/home" className="home-route">
@@ -10,4 +10,4 @@ export default function TopBanner() {
       </Link>
     </div>
   );
-}
+};

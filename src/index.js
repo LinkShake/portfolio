@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPage from "./routes/LandingPage";
-import SkillsPage from "./routes/SkillsPage";
-import ProjectsPage from "./routes/ProjectsPage";
-import PageNotFound from "./routes/PageNotFound";
+import { LandingPage } from "./routes/LandingPage";
+import { SkillsPage } from "./routes/SkillsPage";
+import { ProjectsPage } from "./routes/ProjectsPage";
+import { PageNotFound } from "./routes/PageNotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

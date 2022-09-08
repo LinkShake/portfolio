@@ -1,11 +1,11 @@
-import TopBanner from "../components/pages/common/TopBanner";
-import SkillsContainer from "../components/pages/skills/SkillsCard";
+import { TopBanner } from "../components/pages/common/TopBanner";
+import { SkillsContainer } from "../components/pages/skills/SkillsCard";
 import { Fragment, useLayoutEffect } from "react";
 import { SKILLS_LIST } from "../shared/config";
-import Footer from "../components/global/Footer";
+import { Footer } from "../components/global/Footer";
 import "../style/TopBanner.css";
 
-export default function SkillsPage() {
+export const SkillsPage = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -20,4 +20,4 @@ export default function SkillsPage() {
       <Footer />
     </Fragment>
   );
-}
+};

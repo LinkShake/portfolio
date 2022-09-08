@@ -1,6 +1,6 @@
 import "../../style/InitialPage.css";
 
-export default function InitialPage() {
+export const InitialPage = () => {
   const introductionText = "Hi! I'm Nicola Del Pio Luogo";
 
   return (
@@ -17,4 +17,4 @@ export default function InitialPage() {
       </p>
     </>
   );
-}
+};

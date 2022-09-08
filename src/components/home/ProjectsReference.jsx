@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import ImagePath from "../../images/projects.gif";
 
-export default function ProjectsReference() {
+export const ProjectsReference = () => {
   return (
     <div className="reference">
       <h1>Projects</h1>
@@ -35,4 +35,4 @@ export default function ProjectsReference() {
       </div>
     </div>
   );
-}
+};

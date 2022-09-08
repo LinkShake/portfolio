@@ -1,6 +1,6 @@
 import "../../../style/ProjectsSkillsPage.css";
 
-export default function SkillsCard({ skill }) {
+export const SkillsCard = ({ skill }) => {
   return (
     <div className="skill-card">
       <h2>{skill.technologyName}</h2>
@@ -14,4 +14,4 @@ export default function SkillsCard({ skill }) {
       </div>
     </div>
   );
-}
+};

@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import "../style/LandingPage.css";
 
-export default function LandingPage() {
+export const LandingPage = () => {
   const html = "<p>Hello world!</p>";
   return (
     <Fragment>
@@ -26,4 +26,4 @@ export default function LandingPage() {
       </Link>
     </Fragment>
   );
-}
+};

@@ -4,7 +4,7 @@ import "../../style/Reference.css";
 import "../../style/routes.css";
 import "../../style/ContentWrapper.css";
 
-export default function SkillsReference() {
+export const SkillsReference = () => {
   return (
     <div className="reference">
       <h1>Skills</h1>
@@ -36,4 +36,4 @@ export default function SkillsReference() {
       </div>
     </div>
   );
-}
+};
